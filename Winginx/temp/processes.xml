@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<Service>
+  <Service Name="nginx" Status="Running" ProcessId="672" Type="nginx" Binfile="C:\Users\sashk\Desktop\Winginx\Winginx\nginx.exe" AutoStart="true">
+    <Log>[INFO] Запущен (процесс 672)
+</Log>
+  </Service>
+  <Service Name="MySQL" Status="Running" ProcessId="5712" Type="Database" Binfile="C:\Users\sashk\Desktop\Winginx\Winginx\mysql\mysqld.exe" AutoStart="true">
+    <Log>[INFO] Запущен (процесс 5712)
+160116  0:56:46 [Warning] '--default-character-set' is deprecated and will be removed in a future release. Please use '--character-set-server' instead.
+160116  0:56:46 [Warning] '--skip-locking' is deprecated and will be removed in a future release. Please use '--skip-external-locking' instead.
+</Log>
+  </Service>
+  <Service Name="MongoDB" Status="Running" ProcessId="5252" Type="Database" Binfile="C:\Users\sashk\Desktop\Winginx\Winginx\mongodb\mongod.exe" AutoStart="true">
+    <Log>Sat Jan 16 00:56:47.428 [initandlisten] MongoDB starting : pid=5252 port=27017 dbpath=data 32-bit host=LenovoY570
+Sat Jan 16 00:56:47.429 [initandlisten] 
+Sat Jan 16 00:56:47.429 [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+Sat Jan 16 00:56:47.429 [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+Sat Jan 16 00:56:47.429 [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+Sat Jan 16 00:56:47.429 [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+Sat Jan 16 00:56:47.429 [initandlisten] 
+Sat Jan 16 00:56:47.429 [initandlisten] db version v2.4.5
+Sat Jan 16 00:56:47.429 [initandlisten] git version: a2ddc68ba7c9cee17bfe69ed840383ec3506602b
+Sat Jan 16 00:56:47.429 [initandlisten] build info: windows sys.getwindowsversion(major=6, minor=0, build=6002, platform=2, service_pack='Service Pack 2') BOOST_LIB_VERSION=1_49
+Sat Jan 16 00:56:47.429 [initandlisten] allocator: system
+Sat Jan 16 00:56:47.429 [initandlisten] options: { bind_ip: "127.0.0.1", config: "mongodb.conf", dbpath: "data", nojournal: true, port: 27017 }
+[INFO] Запущен (процесс 5252)
+Sat Jan 16 00:56:47.749 [websvr] admin web console waiting for connections on port 28017
+Sat Jan 16 00:56:47.749 [initandlisten] waiting for connections on port 27017
+Sat Jan 16 00:57:47.759 [PeriodicTask::Runner] task: DBConnectionPool-cleaner took: 11ms
+Sat Jan 16 00:57:47.790 [PeriodicTask::Runner] task: WriteBackManager::cleaner took: 28ms
+</Log>
+  </Service>
+  <Service Name="Redis" Status="Running" ProcessId="948" Type="Database" Binfile="C:\Users\sashk\Desktop\Winginx\Winginx\redis\redis-server.exe" AutoStart="true">
+    <Log>[INFO] Запущен (процесс 948)
+</Log>
+  </Service>
+  <Service Name="Memcached" Status="Running" ProcessId="2408" Type="Database" Binfile="C:\Users\sashk\Desktop\Winginx\Winginx\memcached\memcached.exe" AutoStart="true">
+    <Log>[INFO] Запущен (процесс 2408)
+</Log>
+  </Service>
+  <Service Name="PHP 5.3.27" Status="Running" ProcessId="3260" Type="FastCGI" Binfile="C:\Users\sashk\Desktop\Winginx\Winginx\php5\php-cgi.exe" AutoStart="true">
+    <Log>[INFO] Запущен (процесс 3260)
+</Log>
+  </Service>
+  <Service Name="PHP 5.4.25" Status="Running" ProcessId="5376" Type="FastCGI" Binfile="C:\Users\sashk\Desktop\Winginx\Winginx\php54\php-cgi.exe" AutoStart="true">
+    <Log>[INFO] Запущен (процесс 5376)
+</Log>
+  </Service>
+</Service>
